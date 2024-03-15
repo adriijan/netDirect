@@ -24,7 +24,7 @@ toggleButton2.addEventListener('click', function () {
 	if (section2Text.classList.contains('section-items__item--hidden')) {
 		toggleButton1.textContent = 'Zobrazit obsah';
 		section2.style.justifyContent = 'unset';
-		section1.style.width = "-webkit-fill-available"
+		section2.style.width = "-webkit-fill-available"
 	} else {
 		toggleButton2.textContent = 'Skrýt obsah';
 		section2.style.justifyContent = 'space-between';
@@ -40,7 +40,7 @@ toggleButton3.addEventListener('click', function () {
 	if (section3Text.classList.contains('section-items__item--hidden')) {
 		toggleButton3.textContent = 'Zobrazit obsah';
 		section3.style.justifyContent = 'unset';
-		section1.style.width = "-webkit-fill-available"
+		section3.style.width = "-webkit-fill-available"
 	} else {
 		toggleButton3.textContent = 'Skrýt obsah';
 		section3.style.justifyContent = 'space-between';

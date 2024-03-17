@@ -22,7 +22,7 @@ toggleButton2.addEventListener('click', function () {
 	section2Text.classList.toggle('section-items__item--hidden');
 
 	if (section2Text.classList.contains('section-items__item--hidden')) {
-		toggleButton1.textContent = 'Zobrazit obsah';
+		toggleButton2.textContent = 'Zobrazit obsah';
 		section2.style.justifyContent = 'unset';
 		section2.style.width = "-webkit-fill-available"
 	} else {
